@@ -20,7 +20,7 @@ import android.view.ViewGroup;
  * 设计：夜白
  * 程序：gtf35
  * gtfdeyouxiang@gamil.com
- * 2019/08/12
+ * 2019/08/18
  * */
 
 public class BeautifulSeekbar extends View {

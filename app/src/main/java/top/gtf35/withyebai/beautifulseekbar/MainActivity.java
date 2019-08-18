@@ -29,16 +29,20 @@ public class MainActivity extends AppCompatActivity {
         seekbar.setOnSeekBarChangeListener(new BeautifulSeekbar.onSeekBarChangeListener() {
             @Override
             public void onProgressChanged(BeautifulSeekbar beautifulSeekbar, int progress) {
+                //在进度改变的时候会回调这个接口(包括使用 Java 设置进度)
+                //返回0-100之间的数值
                 progressTV.setText("进度：" + progress + "%");
             }
 
             @Override
             public void onStartTrackingTouch(BeautifulSeekbar beautifulSeekbar) {
+                //在手指放在拖动条上的时候会回调这个接口，可做进度提示等操作
                 fingerTV.setText("手指已按下");
             }
 
             @Override
             public void onStopTrackingTouch(BeautifulSeekbar beautifulSeekbar) {
+                //在手指在拖动条抬起上的时候会回调这个接口，可做进度提示等操作
                 fingerTV.setText("手指未按下");
             }
         });

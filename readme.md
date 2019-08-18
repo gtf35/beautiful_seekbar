@@ -28,7 +28,7 @@
 ```Gradle
 dependencies {
    ....
-   implementation 'top.gtf35.lib.withyebai:SeekBar:1.0'
+   implementation 'top.gtf35.lib.withyebai:BeautifulSeekBar:1.0'
    ....
 }
 ```

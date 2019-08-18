@@ -4,13 +4,13 @@
 
 [![](https://img.shields.io/github/stars/gtf35/beautiful_seekbar?style=for-the-badge)]()  [![](https://img.shields.io/github/forks/gtf35/beautiful_seekbar?style=for-the-badge)]()  [![](https://img.shields.io/github/release/gtf35/beautiful_seekbar?style=for-the-badge)](https://github.com/gtf35/beautiful_seekbar/releases) 
 
-## 0 效果图
+##  效果图
 ![效果图](https://github.com/gtf35/beautiful_seekbar/blob/master/static/seekbar.gif)
 
-## 1 设计图
+## 设计图
 ![设计图](https://github.com/gtf35/beautiful_seekbar/blob/master/static/yuanpic.png)
 
-## 2 特性
+## 特性
    - 美观，ui设计师 夜白 设计
    - 支持颜色自定义
    - 支持禁用/启用
@@ -22,8 +22,8 @@
    - 小巧，没有使用任何图片资源
    - 支持被系统回收后重建
 
-## 3 使用
-### 	3x1 依赖：在 app 级别的 build.gradle 添加
+## 使用
+### 	依赖：在 app 级别的 build.gradle 添加
 
 ```Gradle
 dependencies {
@@ -33,13 +33,13 @@ dependencies {
 }
 ```
 
-### 	3x2 引入：在 layout 布局文件中添加
+### 	引入：在 layout 布局文件中添加
 ```xml
 <top.gtf35.withyebai.BeautifulSeekbar
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 ```
-### 	3x3 监听：在调用实例的 setOnSeekBarChangeListener 监听滑动/手指按下/手指抬起事件
+### 	监听：在调用实例的 setOnSeekBarChangeListener 监听滑动/手指按下/手指抬起事件
 
 ```java
 /*进度监听*/
@@ -66,12 +66,12 @@ seekbar.setOnSeekBarChangeListener(new BeautifulSeekbar.onSeekBarChangeListener(
 ```
 
 
-## 4 混淆
+## 混淆
 没有使用任何反射等奇技淫巧，无需关注
 
-## 5 高级使用
+## 高级使用
 
-### 		5x0 demo 预览
+### 		demo 预览
 
 ![demo预览](https://github.com/gtf35/beautiful_seekbar/blob/master/static/demopic.png)
 
